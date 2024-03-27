@@ -3,7 +3,7 @@
 #include "stdio.h"
 
 /**
- * binary_tree_nodes - Counts the nodes 
+ * binary_tree_nodes - Counts the nodes
  * @tree: Pointer to the root node of the tree to count the nodes
  * Description: funtion to count nodes
  * Return: int or null
