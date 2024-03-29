@@ -34,7 +34,7 @@ size_t binary_tree_height(const binary_tree_t *tree)
 int binary_tree_is_avl_recursive(const binary_tree_t *tree, int min, int max)
 {
 	int left_height, right_height, balance_factor;
-	
+
 	if (tree == NULL)
 	{
 		return (1);
@@ -66,5 +66,5 @@ int binary_tree_is_avl(const binary_tree_t *tree)
 	{
 		return (0);
 	}
-	return binary_tree_is_avl_recursive(tree, INT_MIN, INT_MAX);
+	return (binary_tree_is_avl_recursive(tree, INT_MIN, INT_MAX));
 }
